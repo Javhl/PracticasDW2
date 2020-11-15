@@ -1,0 +1,167 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url(../img/will__paper_pack1_by_cafrouge-d3nssuy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#logo{
+  width: 7em;
+  height: 6em;
+  padding: 4px;
+}
+#inicio{
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.main{
+  padding-top: 6rem;
+}
+#menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu ul li{
+  list-style: none;
+  display: inline-block;
+}
+#menu ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 2rem;
+  color: rgb(19, 171, 231);
+  font-size: 1.2em;
+  transition: all 0.5s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu ul li a:hover{
+  background-color:#0ebaee;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 10px;
+
+}
+#texto1{
+    width: 90%;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+}
+
+#texto3{
+  width: 90%;
+  margin-top: 70px;
+  margin-left: 70px;
+  color: white;
+}
+
+#im{
+    float: left;
+    width: 30%;
+    border: 1px solid transparent;
+}
+#catalogo{
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 4%;
+}
+#im{
+  width: 30em;
+  margin: auto;
+  overflow: hidden;
+}
+#im ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 50s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+#im li{
+  width: 100%;
+}
+#im img{
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+#im ul li{
+  list-style: none;
+}
+#im ul li img{
+  width: 30rem;
+  height: 20rem;
+}
+@keyframes cambio{
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+}
+#efectos{
+  text-align: left;
+}
+#efectos a{
+  background: #ac48b94f;
+  padding: 0.7rem 4rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+#in{
+  float: right;
+  width: 30%;
+  border: 1px solid transparent;
+}
+#in{
+  background: black;
+  width: 30em;
+  margin: auto;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+#in ul li{
+  list-style: none;
+  padding: 1.5vh;
+}
+#in ul li a{
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+#in ul li>ul{
+  display: none;
+  color: #fff;
+}
+#in ul li:hover>ul{
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ani {
+  position: absolute;
+}
+#ani img{
+  width: 5rem;
+  height: 5rem;
+}
